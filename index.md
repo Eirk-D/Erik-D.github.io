@@ -14,5 +14,12 @@ Angular表单的submit事件一般写入表单校验以及提交的其他事件�
 
 <button type="submit" class="btn btn-default" (click)="sendEvent()">Save && Sent</button>
 ```
-
+## Angular 之 **弹窗**
+通过`ng-template`标签，#name方式创建主容器，div.modal-header标签，div.modal-body标签，div.modal-footer标签分别作为
+弹窗的头部，主题，尾部。其中头部主要用来放标题，关闭按键。
+```html
+<ng-template #examplePop>
+div button X div.modalbody div.modal-footer
+</ng-template>
+```
 
