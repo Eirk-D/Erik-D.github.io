@@ -1,1 +1,4 @@
 theme: jekyll-theme-slate
+header_pages:
+  - english.md
+  - daily_20210812.md
