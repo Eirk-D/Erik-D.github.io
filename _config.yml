@@ -1,4 +1,18 @@
-theme: jekyll-theme-slate
-header_pages:
-  - english.md
-  - daily_20210812.md
+
+# Site settings
+title: 
+email: 
+baseurl: "/JekyllTheme-ProjectGaia" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+markdown: kramdown
+# toc_levels: 1……2
+
+# paginate: 10
+# paginate_path: ":num"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - blog pull and debug.bat
